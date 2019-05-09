@@ -12,6 +12,10 @@ You will need to know the IP of the now-tv box, which you can find with nmap or 
 # install dependencies
 npm install
 
+# Change box's IP
+# sed -i 's/192.168.0.2/<YOUR_BOX_IP>/' ./src/config/index.json 
+sed -i '' 's/192.168.0.2/<YOUR_BOX_IP>/' ./src/config/index.json
+
 # serve with hot reload at localhost:8080
 npm run dev
 
