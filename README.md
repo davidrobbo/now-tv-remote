@@ -1,4 +1,8 @@
-# now-tv
+Lost my now-tv remote and had had enough of the adverts on the mobile apps so had a quick look to find the now-tv boxes IP, found the roku docs (https://sdkdocs.roku.com/display/sdkdoc/External+Control+API#ExternalControlAPI-KeypressKeyValues) and quickly knocked up a working remote.
+
+You will need to know the IP of the now-tv box, which you can find with nmap or by logging into your router's admin page.
+
+# now-tv-remote
 
 > A Vue.js project
 
